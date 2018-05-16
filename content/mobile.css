@@ -47,6 +47,11 @@
   height: auto;
 }
 
+#mobile-carousel-estrutura{
+  position: relative;
+  width: 100%;
+}
+
 .mobile-frame-container {
   width: 98%;
   margin-left: auto;
