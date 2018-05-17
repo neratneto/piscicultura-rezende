@@ -47,7 +47,7 @@
   height: auto;
 }
 
-#mobile-carousel-estrutura{
+#mobile-carousel-estrutura {
   position: relative;
   width: 100%;
 }
@@ -91,6 +91,7 @@
   right: 15%;
   text-align: center;
   border-radius: 15px 15px 0 0;
+  z-index: 20;
 }
 
 .mobile-empresa-top {
