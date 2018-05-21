@@ -33,6 +33,10 @@ section {
   padding-top: 2%;
 }
 
+.ambiente-aquatico {
+  display: none;
+}
+
 .intro-section .intro-text {
   position: absolute;
   bottom: 44%;
@@ -187,7 +191,7 @@ section {
   position: absolute;
   padding: 10px 20px 15px 20px;
   left: 8%;
-  bottom: 6%;
+  bottom: 2%;
   border-radius: 10px;
 }
 

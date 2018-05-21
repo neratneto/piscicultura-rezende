@@ -15,7 +15,6 @@
   padding: 11px;
 }
 
-
 .mobile-small-container {
   width: 98%;
   border-radius: 10px;
@@ -57,9 +56,11 @@
 }
 
 .mobile-ambiente-aquatico {
-  padding-left: 6%;
+  margin-left: 3%;
   width: 95%;
   height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #444;
 }
 
 .mobile-aquicultura-container {
@@ -89,7 +90,7 @@
   padding: 0;
 }
 
-#mobile-carousel-estrutura{
+#mobile-carousel-estrutura {
   position: relative;
   width: 100%;
 }
