@@ -38,6 +38,7 @@
 					<li class="nav-item"><a class="nav-link" href="#especies">Esp&eacutecies</a></li>
 					<li class="nav-item"><a class="nav-link" href="#carousel-estrutura">Estrutura</a></li>
 					<li class="nav-item"><a class="nav-link" href="#iframes">Receitas</a></li>
+					<li class="blogspotIcon"><a href="http://almasemacao.blogspot.com.br/2016/08/piscicultura-rezende-e-destaque-em.html?m=1" alt="Blog Almas em A&ccedil&atildeo" target="_blank"><img src="content/images/blogspot-icon.png" width="35px" height="auto"></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -156,6 +157,7 @@
 					<li data-target="#carousel-estrutura" data-slide-to="2"></li>
 					<li data-target="#carousel-estrutura" data-slide-to="3"></li>
 					<li data-target="#carousel-estrutura" data-slide-to="4"></li>
+					<li data-target="#carousel-estrutura" data-slide-to="5"></li>
 				</ul>
 				<!--- Slideshow --->
 				<div class="carousel-inner">
@@ -173,6 +175,9 @@
 					</div>
 					<div class="carousel-item">
 						<img src="content/images/carousel-4.jpeg" alt="" width="100%" height="100%">
+					</div>
+					<div class="carousel-item">
+						<img src="content/images/carousel-5.jpeg" alt="" width="100%" height="100%">
 					</div>
 				</div>
 				<!--- Controles --->
@@ -218,6 +223,13 @@
 		</div>
 	</section>
 
+	<section>
+		<h4 class="iframe-title">Encontro de Piscicultores em Livramento - PB</h4>
+		<div class="video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/FBhMD_1kmG4"></iframe>
+		</div>
+	</section>
+
 	<footer>
 		<div onclick="footerSlide()" class="footer bg-blue">
 			<p class="footer-title">contato</p>
@@ -251,6 +263,8 @@
 				$(".navbar-expand-md").addClass("navbar-expand-sm");
 				$(".navbar-toggler").addClass("mobile-navbar-toggler");
 				$(".navbar-collapse").addClass("mobile-navbar-collapse");
+				$(".blogspotIcon").addClass("nav-item");
+				$(".blogspotIcon").removeClass("blogspotIcon");
 				$("#img-aquicultura").hide();
 				$("#img-missao").hide();
 				$(".aquicultura-container").removeClass("aquicultura-container");
@@ -279,6 +293,8 @@
 				$("#carousel-estrutura").removeClass("carousel-estrutura");
 				$(".frame-container").addClass("mobile-frame-container");
 				$(".frame-container").removeClass("frame-container");
+				$(".video").addClass("mobile-video");
+				$(".video").removeClass("video");
 				$(".footer").addClass("mobile-footer");
 				$(".footer").removeClass("footer");
 			}

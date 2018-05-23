@@ -101,6 +101,14 @@
   margin-right: auto;
 }
 
+.mobile-video {
+  position: relative;
+  width: 92%;
+  height: 350px;
+  margin-left: 4%;
+  padding-bottom: 20%;
+}
+
 .mobile-empresa-container {
   width: 98%;
   margin-left: 5%;
