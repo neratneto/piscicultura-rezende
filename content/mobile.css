@@ -134,6 +134,29 @@
   text-transform: uppercase;
 }
 
+.mobile-floor {
+  position: relative;
+  width: 99.9%;
+  height: 95px;
+  padding: 0;
+  background-color: #0288D1;
+}
+
+.mobile-copyright {
+  text-align: left;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 15px;
+}
+
+.mobile-floor img {
+  position: relative;
+  width: 30px;
+  height: auto;
+  margin-top: -19%;
+  margin-left: 89%;
+}
+
 .mobile-footer {
   position: fixed;
   padding: 5px;
