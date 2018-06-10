@@ -61,15 +61,16 @@
 			<p class="header">A Piscicultura Rezende</p>
 			<div id="historia" class="container">
 				<div id="empresa-container" class="row">
-					<div class="col-md-7">
+					<div class="col-md-6">
 						<p class="title">Nossa Hist&oacuteria</p>
 						<p class="text">A fam&iacutelia Rezende atua no Mato Grosso a mais de 50 anos e sua principal atividade &eacute a pecu&aacuteria. Por&eacutem, no in&iacutecio de 2012 resolveu inovar, contando agora com um projeto j&aacute em andamento de 100 hectares de l&acircmina
 							de &aacutegua para a cria&ccedil&atildeo de peixes. Tendo amor ao Pantanal e cria&ccedil&atildeo em sua alma, a fam&iacutelia resolveu formar uma parceria e implantar a piscicultura, onde tudo come&ccedilou. A Fazenda Santo Ant&ocircnio das Tr&ecircs
 							Marias, localizada a menos de duas horas de Rondon&oacutepolis, no munic&iacutepio do Santo Ant&ocircnio do Leverger – MT, contar&aacute nesta primeira etapa com 50 hectares de piscicultura. O grupo quer se tornar refer&ecircncia na cria&ccedil&atildeo
 							de peixes nativos, como o Pintado da Amaz&ocircnia e a Tambatinga.</p>
 					</div>
-					<div class="col-md-5" style="padding-top: 8%">
-						<img class="historia-image" src="content/images/nossa-historia.jpeg" alt="Nossa História" width="103%" height="93%">
+					<div class="col-md-6">
+						<img class="historia-image" src="content/images/nossa-historia.jpeg" alt="Nossa História" width="100%" height="75%">
+						<a href="http://agroinova.com.br/produtos/aquicultura/peixe/inovapeixe_novo/" target="_blank"><img class="inovapeixe" src="content/images/InovaPeixe.png" alt="Software InovaPeixe" width="100%"></a>
 					</div>
 				</div>
 			</div>
@@ -223,9 +224,19 @@
 	</section>
 
 	<section>
-		<h4 class="iframe-title">Encontro de Piscicultores em Livramento - PB</h4>
-		<div class="video">
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/FBhMD_1kmG4"></iframe>
+		<div class="row" style="width: 100%">
+			<div class="col-md-6">
+				<h4 class="iframe-title">Encontro de Piscicultores em Livramento - PB</h4>
+				<div class="video1">
+					<iframe width="100%" height="470px" src="https://www.youtube.com/embed/FBhMD_1kmG4"></iframe>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h4 class="iframe-title">Despesca</h4>
+				<div class="video2">
+					<video width="100%" height="470px" controls><source src="content/backgrounds/despesca.webm" type="video/webm"></video>
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -248,7 +259,7 @@
 					<p class="copyright">&copyNhandutiDesign</p>
 				</div>
 				<div class="col-md-2">
-					<a href="http://almasemacao.blogspot.com.br/2016/08/piscicultura-rezende-e-destaque-em.html?m=1" alt="Blog Almas em A&ccedil&atildeo" target="_blank"><img src="content/images/blogspot-icon.png"></a>
+					<a href="http://almasemacao.blogspot.com.br/2016/08/piscicultura-rezende-e-destaque-em.html?m=1" target="_blank"><img src="content/images/blogspot-icon.png" alt="Blog Almas em A&ccedil&atildeo"></a>
 				</div>
 			</div>
 		</div>
@@ -283,6 +294,7 @@
 				$(".box-text").removeClass("box-text");
 				$(".row").removeClass("row");
 				$(".col-md-10").removeClass("col-md-10");
+				$(".col-md-6").removeClass("col-md-6");
 				$(".col-md-2").removeClass("col-md-2");
 				$("#empresa").addClass("mobile-empresa-top");
 				$("#empresa-container").addClass("mobile-empresa-container");
@@ -304,8 +316,10 @@
 				$("#carousel-estrutura").removeClass("carousel-estrutura");
 				$(".frame-container").addClass("mobile-frame-container");
 				$(".frame-container").removeClass("frame-container");
-				$(".video").addClass("mobile-video");
-				$(".video").removeClass("video");
+				$(".video1").addClass("mobile-video1");
+				$(".video1").removeClass("video1");
+				$(".video2").addClass("mobile-video2");
+				$(".video2").removeClass("video2");
 				$(".floor").addClass("mobile-floor");
 				$(".floor").removeClass("floor");
 				$(".copyright").addClass("mobile-copyright");
